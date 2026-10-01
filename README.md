@@ -31,6 +31,13 @@ estoque_php/README.md
 
 Os exercícios usam PHP e HTML, com CSS próprio. Não precisam de banco de dados, JavaScript, bibliotecas ou instalação de pacotes. Os cadastros são simulados por variáveis, conforme o enunciado. Cada arquivo executa separadamente.
 
+## Hospedagem na Vercel
+
+O `vercel.json` usa o runtime comunitário `vercel-php@0.9.0`. As rotas `/`, `/index.php` e `/exercicio01.php` até `/exercicio10.php` passam pela função `api/index.php`. Ela executa o exercício solicitado usando uma lista restrita de números válidos. As regras dos exercícios ficam antes da consulta aos arquivos estáticos, evitando o download dos códigos PHP. O `style.css` continua sendo servido como CSS.
+
+No painel da Vercel, use **Framework Preset: Other**, a raiz do repositório como **Root Directory**, e deixe as substituições de Build Command e Output Directory desativadas. Depois de integrar a alteração à branch de produção, aguarde o novo deployment ou use **Redeploy**. Teste o menu, um exercício e o botão de voltar.
+
+
 ## Conteúdo
 
 Cada exercício contém dados de exemplo, comentários sobre as principais linhas, relatório e respostas das perguntas. As respostas também estão reunidas em `respostas.md`.

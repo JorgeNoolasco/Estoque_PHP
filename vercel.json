@@ -1,13 +1,33 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.9.0"
     }
   },
-  "rewrites": [
+  "routes": [
     {
-      "source": "/",
-      "destination": "/api/index.php"
+      "src": "/",
+      "dest": "/api/index.php"
+    },
+    {
+      "src": "/index\\.php",
+      "dest": "/api/index.php"
+    },
+    {
+      "src": "/exercicio(0[1-9]|10)\\.php",
+      "dest": "/api/index.php?exercicio=$1"
+    },
+    {
+      "src": "/api/style\\.css",
+      "dest": "/style.css"
+    },
+    {
+      "src": "/api/exercicio(0[1-9]|10)\\.php",
+      "dest": "/api/index.php?exercicio=$1"
+    },
+    {
+      "handle": "filesystem"
     }
   ]
 }

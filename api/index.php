@@ -1,3 +1,21 @@
+<?php
+// A Vercel executa esta função para o menu e para os dez exercícios.
+header('Content-Type: text/html; charset=UTF-8');
+
+if (isset($_GET['exercicio'])) {
+    $exercicio = $_GET['exercicio'];
+
+    // Aceita somente os arquivos conhecidos, sem permitir caminhos arbitrários.
+    if (!is_string($exercicio) || !preg_match('/\A(?:0[1-9]|10)\z/', $exercicio)) {
+        http_response_code(404);
+        echo '<h1>Exercício não encontrado</h1>';
+        exit;
+    }
+
+    require dirname(__DIR__) . '/exercicio' . $exercicio . '.php';
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>

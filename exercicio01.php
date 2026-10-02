@@ -13,6 +13,7 @@ $quantidadeDisponivel = 15;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 01 — Cadastro básico de produto</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
 <header>
@@ -51,6 +52,9 @@ echo "<p><strong>Quantidade em estoque:</strong> " . $quantidadeDisponivel . "</
         </div>
     </section>
 </main>
+
+<button class="proximo" onclick="window.location.href='exercicio02.php'">Próximo Exercício</button>
+
 <footer>Atividade prática — Desenvolvimento de Sistemas Web</footer>
 </body>
 </html>

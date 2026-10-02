@@ -22,6 +22,7 @@ $dataRelatorio = date("d/m/Y");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 05 — Relatório de movimentação</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
 <header>
@@ -59,5 +60,8 @@ echo "<p><strong>Novo estoque:</strong> " . $novoEstoque . "</p>";
     </section>
 </main>
 <footer>Atividade prática — Desenvolvimento de Sistemas Web</footer>
+
+<button class="proximo" onclick="window.location.href='exercicio06.php'">Próximo Exercício</button>
+
 </body>
 </html>

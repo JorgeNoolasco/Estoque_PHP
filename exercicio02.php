@@ -16,6 +16,7 @@ $estoqueAtual = $quantidadeInicial + $quantidadeEntrada - $quantidadeSaida;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 02 — Controle de quantidade em estoque</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
 <header>
@@ -55,6 +56,9 @@ echo "<p><strong>Estoque atual:</strong> " . $estoqueAtual . "</p>";
         </div>
     </section>
 </main>
+
+<button class="proximo" onclick="window.location.href='exercicio03.php'">Próximo Exercício</button>
+
 <footer>Atividade prática — Desenvolvimento de Sistemas Web</footer>
 </body>
 </html>

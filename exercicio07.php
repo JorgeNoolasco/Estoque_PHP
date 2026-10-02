@@ -19,6 +19,7 @@ if ($estoqueAdequado) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 07 — Status do estoque</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
 <header>
@@ -52,6 +53,9 @@ echo "<p><strong>Estoque adequado (boolean):</strong> " . ($estoqueAdequado ? "t
         </div>
     </section>
 </main>
+
+<button class="proximo" onclick="window.location.href='exercicio08.php'">Próximo Exercício</button>
+
 <footer>Atividade prática — Desenvolvimento de Sistemas Web</footer>
 </body>
 </html>

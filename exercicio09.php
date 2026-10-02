@@ -16,6 +16,7 @@ $valorTotalEstoque = 35800.50;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 09 — Dashboard simples de estoque</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
 <header>
@@ -53,6 +54,9 @@ echo "<p>Os indicadores usam dados fictícios. Um produto disponível também po
         </div>
     </section>
 </main>
+
+<button class="proximo" onclick="window.location.href='exercicio10.php'">Próximo Exercício</button>
+
 <footer>Atividade prática — Desenvolvimento de Sistemas Web</footer>
 </body>
 </html>

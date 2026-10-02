@@ -23,10 +23,13 @@ if (isset($_GET['exercicio'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos PHP — Estoque</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
 <header>
-    <p>Desenvolvimento de Sistemas Web</p>
+    <h1>Desenvolvimento de Sistemas Web</h1>
+    <p>Nome 1: Jorge Victor</p>
+    <p>Nome 2: Maria Antonia</p>
     <h1>Sistema de controle de estoque</h1>
     <p>Atividade prática — Fundamentos PHP</p>
 </header>

@@ -28,6 +28,7 @@ if ($estoqueAdequado) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 10 — Sistema integrado de estoque</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
 <header>

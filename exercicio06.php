@@ -19,6 +19,7 @@ $lucroEstimado = $quantidadeVendida * $lucro;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 06 — Controle financeiro do estoque</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
 <header>
@@ -58,5 +59,8 @@ echo "<p>Estimativa considerando apenas compra e venda, sem outros custos.</p>";
     </section>
 </main>
 <footer>Atividade prática — Desenvolvimento de Sistemas Web</footer>
+
+<button class="proximo" onclick="window.location.href='exercicio07.php'">Próximo Exercício</button>
+
 </body>
 </html>
